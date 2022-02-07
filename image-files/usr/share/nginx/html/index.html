@@ -5,6 +5,19 @@
     <title>Default</title>
 </head>
 <body>
-<h1>There's nothing to see here</h1>
+<ul>
+    <li><a href="./google-fonts/">Google Fonts</a></li>
+    <li><a href="./glyphicons/">Glyphicons</a></li>
+    <li><a href="./ionicons/">Ionicons</a></li>
+</ul>
+
+<p>Es muss ggf. das CSS zum einbinden der Schriften erstellt werden.</p>
+<pre>
+@font-face {
+    font-family: Meine Schrift;
+    src: url('pfad/zu/meinerschrift.woff2') format('woff2'),
+        url('pfad/zu/meinerschrift.woff')  format('woff');
+}
+</pre>
 </body>
 </html>
